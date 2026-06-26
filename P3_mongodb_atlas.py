@@ -15,7 +15,7 @@ import json
 # PASO 1 — Conectar a MongoDB Atlas
 # Atlas → Connect → Drivers → Python → copia el connection string
 # ============================================================
-CONNECTION_STRING = "mongodb+srv://<usuario>:<password>@<cluster>.mongodb.net/"
+CONNECTION_STRING = "mongodb+srv://admin:yape2026@yape-cluster.d3ypmmh.mongodb.net/?appName=yape-cluster"
 
 client = MongoClient(CONNECTION_STRING)
 db = client["yape_db"]
