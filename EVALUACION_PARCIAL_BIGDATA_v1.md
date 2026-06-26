@@ -6,7 +6,7 @@
 
 # EVALUACIÓN PARCIAL — BIG DATA
 
-## Código: DD283 | Ciclo VIII | Semestre 2026-1
+## Código: 2221890070 | Ciclo VIII | Semestre 2026-1
 
 ---
 
