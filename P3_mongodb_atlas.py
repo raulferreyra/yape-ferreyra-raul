@@ -3,19 +3,22 @@
 # Ferreyra Villarriel, Raúl Ricardo | Código: 2221890070
 # DD283 Big Data | Universidad Autónoma del Perú | 2026-1
 # ============================================================
-# Ejecutar en Google Colab:
-#   !pip install pymongo dnspython -q
-# Luego reemplazar CONNECTION_STRING con tu string de Atlas.
+# Ejecutar local: pip install pymongo dnspython python-dotenv
+# Crear archivo .env con: MONGODB_URI=mongodb+srv://<user>:<pass>@<cluster>.mongodb.net/
 # ============================================================
 
 from pymongo import MongoClient
-import json
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # ============================================================
 # PASO 1 — Conectar a MongoDB Atlas
-# Atlas → Connect → Drivers → Python → copia el connection string
+# Connection string cargado desde .env (no se sube a GitHub)
+# Crear .env con: MONGODB_URI=mongodb+srv://<user>:<pass>@<cluster>.mongodb.net/
 # ============================================================
-CONNECTION_STRING = "mongodb+srv://admin:yape2026@yape-cluster.d3ypmmh.mongodb.net/?appName=yape-cluster"
+CONNECTION_STRING = os.getenv("MONGODB_URI")
 
 client = MongoClient(CONNECTION_STRING)
 db = client["yape_db"]
