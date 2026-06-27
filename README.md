@@ -8,12 +8,7 @@
 
 ## Video de sustentación
 
-**Enlace:** `https://______________________________`
-
-> Pendiente de grabación. El video cubrirá los 6 segmentos requeridos:
-> presentación, arquitectura Yape (P1.1), pipeline Medallion en Databricks,
-> MongoDB Atlas (colecciones + pipeline), Docker Desktop (contenedor corriendo)
-> y uso de IA.
+**Enlace:** [https://youtu.be/RdwRC5ZNbKs](https://youtu.be/RdwRC5ZNbKs)
 
 ---
 
